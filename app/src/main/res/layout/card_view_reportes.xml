@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_usuarios_view"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="#537C9C"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/layout_usuario_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#537C9C"
+    android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Fecha:"
+                    android:textColor="#0B0E0B"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="luis"
+                    android:textColor="#C3BDC5"
+                    android:textStyle="bold" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Direccion de Registro"
+            android:textColor="#0B0E0B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="chilpancingo"
+            android:textColor="#C3BDC5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Servicio Tecnico:"
+            android:textColor="#0B0E0B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewOficio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="albañil"
+            android:textColor="#C3BDC5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Palabras Claves:"
+            android:textColor="#0B0E0B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPalabrasClaves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="maestro"
+            android:textColor="#C3BDC5"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/black"/>
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

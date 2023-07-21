@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ing Reportes Estudiantes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesión</string>
+
+    <string name="menu_home">Entrevista a Técnicos</string>
+    <string name="menu_gallery">Mis Reportes</string>
+    <string name="menu_slideshow">Entrevista a Personas</string>
+    <string name="datosDelUsuario">Ingresa tus datos</string>
+    <string name="nombreEstudiante">Ingresa tu nombre</string>
+    <string name="ApellidoPaterno">Primer Apellido</string>
+    <string name="ApellidoMaterno">Segundo Apellido</string>
+    <string name="matricula">Ingresa tu matricula</string>
+    <string name="btnIngresar">Guardar</string>
+</resources>

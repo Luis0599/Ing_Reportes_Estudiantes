@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#787FAA"
+    android:padding="15dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/datosDelUsuario" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutNombre_Registrado"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_Nombre_Registrado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:hint="@string/nombreEstudiante"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutApellidoP"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_ApellidoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:hint="@string/ApellidoPaterno"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/layoutApellidoM"
+    android:layout_width="match_parent"
+    app:errorEnabled="true"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_ApellidoM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:hint="@string/ApellidoMaterno"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutMatricula"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_Matricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/matricula"
+            android:maxLength="10"
+            android:inputType="number"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botonGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/btnIngresar"
+            android:textColor="#242C59"
+            android:onClick="aceptarNoR"
+            app:backgroundTint="#97C699"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

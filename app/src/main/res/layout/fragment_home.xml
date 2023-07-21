@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8302354C"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutNombreDelTecnico"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_Nombre_DelTecnico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:maxLength="100"
+                    android:hint="Nombre Completo"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutTelefono"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_Telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10"
+
+                    android:hint="Número deTeléfono"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="Nombre del servicio Tecnico o profesional" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutNombreOficio"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_Nombre_oficio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+
+                    android:maxLength="100"
+                    android:hint="Por ejemplo Albañil"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Palabras claves: tienen que ir por separadas por una coma y espacio." />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutPalabrasC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edit_PalabrasClaves"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="ejemplo:  construir, construcción, maistro, etc."
+                            android:maxLines="5"
+                            android:inputType="textMultiLine" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/buttonRegistrar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center"
+                        android:text="Registrar" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352373036653",
+    "project_id": "control-estudiantes-df7f3",
+    "storage_bucket": "control-estudiantes-df7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352373036653:android:c4faee8c4c1a47d3921164",
+        "android_client_info": {
+          "package_name": "com.example.ingreportesestudiantes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352373036653-u9hat4jglhj6u4u23p4s8orrirr72fia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcD2DXr0lu4vlWPQPz09m7kp6IEobpwHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352373036653-u9hat4jglhj6u4u23p4s8orrirr72fia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
